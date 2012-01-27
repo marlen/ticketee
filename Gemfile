@@ -39,7 +39,7 @@ group :test, :development do
   gem 'rspec-rails', '~> 2.5'
 end
 
-group :test do
+group :test, :development do
   gem 'cucumber-rails'
   gem 'capybara'
   gem 'database_cleaner'
